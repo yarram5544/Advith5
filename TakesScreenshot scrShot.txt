@@ -1,0 +1,3 @@
+TakesScreenshot scrShot1 =((TakesScreenshot)driver);
+	 File SrcFile1=scrShot1.getScreenshotAs(OutputType.FILE);
+	 FileUtils.copyFile(SrcFile1, new File("C:\\TC02_Login\\TC1_ScreenShot1.jpg"));
